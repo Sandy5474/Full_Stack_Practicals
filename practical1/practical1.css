@@ -1,0 +1,21 @@
+body {
+    background-color: #F0CACA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.red-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 20px;
+}
+
+.red-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    justify-content: space-evenly;
+}

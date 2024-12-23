@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d4f0fd;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9bcbc;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+}
